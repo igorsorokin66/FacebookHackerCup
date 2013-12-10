@@ -2,7 +2,7 @@ import math
 
 ltrs = 'ADEFHNOPSUVY'
 stop = 3365973428406169086
-expectedLength = int(math.ceil(math.log(stop)/math.log(len(ltrs))))
+expectedLength = int(math.ceil(math.log(stop)/math.log(len(ltrs))))#thank you leena
 print expectedLength
 a = expectedLength - 1
 
